@@ -66,6 +66,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Wolf.CSharp.Plugins.csproj">
+      <Project>{DDE910DC-0F79-5CE2-FFBD-5D62A098726F}</Project>
+      <Name>Wolf.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\MoveScript.cs" />
     <Compile Include="Assets\Scripts\UI.cs" />
     <Compile Include="Assets\Scripts\Wolf.cs" />
   </ItemGroup>
